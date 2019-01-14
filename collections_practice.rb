@@ -67,7 +67,8 @@ end
 
 def add_s(array)
   
-  array.each_with_index.collect {|string, element| string <<'s' unless element == 1}
+  narr=[]
+  narr = array.each_with_index.collect {|string, element| string <<'s' unless element == 1}
  
   
 end
