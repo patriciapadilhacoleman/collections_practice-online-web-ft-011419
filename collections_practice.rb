@@ -68,7 +68,7 @@ end
 def add_s(array)
   
  
-  array.each_with_index.collect {|string, element| unless element == 1 string + 's'}
+  array.each_with_index.collect {|string, element| element == 1 ? string : string + 's'}
  
   
 end
